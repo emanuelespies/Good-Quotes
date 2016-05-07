@@ -1,0 +1,25 @@
+{
+  "name": "good-quotes",
+  "version": "0.0.1",
+  "description": "Good Quotes",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ejs": "2.4.1",
+    "express": "4.13.3"
+  },
+  "engines": {
+    "node": "6.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/good-quotes-app"
+  },
+  "keywords": [
+    "node",
+    "heroku"
+  ],
+  "license": "MIT"
+}
