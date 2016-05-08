@@ -1,18 +1,44 @@
 body {
-  background: #eee;
-  color: #444;
-  font-size: 16px;
-  padding-bottom: 80px; 
+	background: #eee;
+	color: #444;
+	font-size: 16px;
+	padding-bottom: 80px; 
+}
+
+/* bootstrap */
+.container {
+		max-width: 730px;
 }
 
 .jumbotron .btn-primary {
-  background: #eee;
-  border-color: #845ac7; }
-  .jumbotron .btn-primary:hover {
-    background: #7646c1; }
+	background: #eee;
+	border-color: #845ac7; }
+
+.jumbotron .btn-primary:hover {
+		background: #7646c1; }
+
 .jumbotron p {
-  color: #d9ccee;
-  max-width: 75%;
-  margin: 1em auto 2em; }
+	color: #d9ccee;
+	max-width: 75%;
+	margin: 1em auto 2em; }
 
 
+
+.loading {
+	background: url('../images/loading.svg') no-repeat;
+	height: 32px;
+	left: 50%;
+	position: absolute;
+	top: 300px;
+	width: 32px;
+	z-index: 100;
+}
+
+
+.loaded-quotes {
+	display: none;
+}
+
+.loaded-quotes small {
+	display: block;
+}
