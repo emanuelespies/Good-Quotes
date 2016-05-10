@@ -14,4 +14,4 @@ To have a random quote each F5.
 
 4 - Put a little style on it
 
-5 - Who know's?!
+5 - Who knows?!
